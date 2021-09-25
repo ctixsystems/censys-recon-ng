@@ -7,6 +7,7 @@ cp censys_subdomains.py ~/.recon-ng/modules/recon/companies-domains
 mkdir -p ~/.recon-ng/modules/recon/companies-hosts
 cp censys_org.py ~/.recon-ng/modules/recon/companies-hosts
 cp censys_tls_subjects.py ~/.recon-ng/modules/recon/companies-hosts
+cp censys_tls_issuers.py ~/.recon-ng/modules/recon/companies-hosts
 
 mkdir -p ~/.recon-ng/modules/recon/companies-netblocks
 cp censys_company_netname.py ~/.recon-ng/modules/recon/companies-netblocks
